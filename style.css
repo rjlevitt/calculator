@@ -1,45 +1,46 @@
 html{
-    background-color: rgb(50,50,50);
+    background-color: rgb(35,35,35);
     font-family: "Nunito", sans-serif;
 }
 .cal-body{
     width: 400px;
-    height: 600px; 
     border: solid #f99e91 2px; 
     border-radius: 8px; 
     margin: 5% auto;
+    box-shadow: rgba(0, 0, 0, 0.6) 0px 5px 15px 0px;
 }
 
 .cal-screen{
     font-size: x-large;
     box-sizing: border-box;
-    padding: 8px;
+    padding: 10px;
     color: white;
     text-align: right;
     background-color: rgb(75,75,75);
     margin: 25px auto;
     width: 90%;
-    border-radius: 2px;
+    border-radius: 5px;
     min-height: 75px;
-    box-shadow: rgba(0, 0, 0, 0.05) 0px 5px 15px 0px;
+    box-shadow: rgba(0, 0, 0, 0.6) 0px 3px 8px 0px;
 }
 
 .grid-container{
-    margin: 10px auto;
+    margin: 45px auto;
     width: 90%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
+    row-gap: 15px;
+    column-gap: 10px;
 }
 
 .cal-btn{
     font-size: larger;
-    height: 40px;
+    height: 55px;
     color: white;
-    background-color: rgb(50,50,50);
+    background-color: rgb(35,35,35);
     border: #36a2eb 2px solid;
     border-radius: 8px;
-    box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 15px 0px;
+    box-shadow: rgba(0, 0, 0, 0.6) 0px 3px 5px 0px;
     position: relative;
     top: 0;
     transition: top ease 0.25s;
@@ -50,4 +51,8 @@ html{
     background-color: #36a2eb;
     top: -3px;
     offset: 3px 0;
+}
+
+.equal-sign{
+    grid-column: span 2
 }
