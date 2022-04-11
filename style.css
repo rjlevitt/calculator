@@ -33,6 +33,7 @@ html{
 }
 
 .cal-btn{
+    font-size: larger;
     height: 40px;
     color: white;
     background-color: rgb(50,50,50);
